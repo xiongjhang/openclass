@@ -2,36 +2,10 @@ test = {
   'name': 'What If?',
   'points': 0,
   'suites': [
-   # {
-   #   'type': 'wwpp',
-   #   'cases': [
-   #     {
-   #       'code': """
-   #       >>> def so_big(x):
-   #       ...     if x > 10:
-   #       ...         print('huge')
-   #       ...     if x > 5:
-   #       ...         return 'big'
-   #       ...     if x > 0:
-   #       ...         print('small')
-   #       ...     print("nothin'")
-   #       >>> so_big(7)
-   #       'big'
-   #       >>> so_big(12)
-   #       huge
-   #       'big'
-   #       >>> so_big(1)
-   #       small
-   #       nothin'
-   #       """,
-   #     }
-   #   ]
-   # },
     {
-      'type': 'wwpp',
       'cases': [
         {
-          'code': """
+          'code': r"""
           >>> def ab(c, d):
           ...     if c > 5:
           ...         print(c)
@@ -39,12 +13,16 @@ test = {
           ...         print(d)
           ...     print('foo')
           >>> ab(10, 20)
-          10
-          foo
+          32606b4d8bc69544a1579aca287813dc
+          076de7ac11ca62f75f649af9dbe4149a
+          # locked
           """,
+          'hidden': False,
+          'locked': True,
+          'multiline': False
         },
         {
-          'code': """
+          'code': r"""
           >>> def bake(cake, make):
           ...    if cake == 0:
           ...        cake = cake + 1
@@ -55,15 +33,22 @@ test = {
           ...        return cake
           ...    return make
           >>> bake(0, 29)
-          1
-          29
-          29
+          f26f9ec9ba426ebfdd8a43b22c8c74a0
+          886cfa066159edb2578269b4d55d2239
+          886cfa066159edb2578269b4d55d2239
+          # locked
           >>> bake(1, "mashed potatoes")
-          mashed potatoes
-          'mashed potatoes'
+          18079ca0c56c783746b70728120f3747
+          575e1338b070e905f49b16443a77012f
+          # locked
           """,
-        },
-      ]
+          'hidden': False,
+          'locked': True,
+          'multiline': False
+        }
+      ],
+      'scored': False,
+      'type': 'wwpp'
     }
   ]
 }

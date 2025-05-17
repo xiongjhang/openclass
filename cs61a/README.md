@@ -4,11 +4,21 @@
 
 ## Useful Link
 
+- [Using OK](https://cs61a.org/articles/using-ok/)
+
 - [UNIX tutorial](https://cs61a.org/articles/unix/)
+
+- [Debug](https://cs61a.org/articles/debugging/)
 
 ## Labs
 
 1. Lab 0: Getting Started - Practice of using software
+
+2. 
+
+## Hws
+
+1. Homework 1: Functions, Control
 
 ## Appendix
 

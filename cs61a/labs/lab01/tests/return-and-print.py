@@ -3,10 +3,9 @@ test = {
   'points': 0,
   'suites': [
     {
-      'type': 'wwpp',
       'cases': [
         {
-          'code': """
+          'code': r"""
           >>> def welcome():
           ...     print('Go')
           ...     return 'hello'
@@ -14,15 +13,22 @@ test = {
           ...     print('Bears')
           ...     return 'world'
           >>> welcome()
-          Go
-          'hello'
+          a344033e5d41145ddc2ecba020ecca21
+          687c415dafe5ef56622994c5d47f0c53
+          # locked
           >>> print(welcome(), cal())
-          Go
-          Bears
-          hello world
+          a344033e5d41145ddc2ecba020ecca21
+          54e01e60cd0534843d98b905f4c5207e
+          45bac2b863288e1ee362e4bcae4c1d17
+          # locked
           """,
-        },
-      ]
-    },
+          'hidden': False,
+          'locked': True,
+          'multiline': False
+        }
+      ],
+      'scored': False,
+      'type': 'wwpp'
+    }
   ]
 }
