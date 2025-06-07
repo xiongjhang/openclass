@@ -13,7 +13,9 @@ def composite_identity(f, g):
     >>> b1(4)                            # (4 + 1) ** 2 != 4 ** 2 + 1
     False
     """
-    "*** YOUR CODE HERE ***"
+    def equal_out(x):
+        return True if f(g(x)) == g(f(x)) else False
+    return equal_out
 
 
 def sum_digits(y):
@@ -59,8 +61,13 @@ def count_cond(condition):
     >>> count_primes(20)   # 2, 3, 5, 7, 11, 13, 17, 19
     8
     """
-    "*** YOUR CODE HERE ***"
-
+    def count_func(n):
+        cnt = 0
+        for i in range(1, n+1):
+            if condition(n, i):
+                cnt += 1
+        return cnt
+    return count_func
 
 def multiple(a, b):
     """Return the smallest number n that is a multiple of both a and b.
@@ -70,7 +77,10 @@ def multiple(a, b):
     >>> multiple(14, 21)
     42
     """
-    "*** YOUR CODE HERE ***"
+    res = max(a, b)
+    while not (res % a == 0 and res % b ==0):
+        res += 1
+    return res
 
 
 
@@ -100,5 +110,17 @@ def cycle(f1, f2, f3):
     >>> do_two_cycles(1)
     19
     """
-    "*** YOUR CODE HERE ***"
+    func_list = [f1, f2, f3]
+
+    def choose_func(index):
+        def func(input):
+            if index == 0:
+                return input
+            res = input 
+            for i in range(index):
+                res = func_list[i % len(func_list)](res)
+            return res
+        return func
+
+    return choose_func
 
