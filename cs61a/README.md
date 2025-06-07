@@ -14,13 +14,27 @@
 
 1. Lab 0: Getting Started - Practice of using software
 
-2. 
+2. Lab 1: Functions
+
+3. Lab 2: Higher-Order Functions, Lambda Expressions
 
 ## Hws
 
 1. Homework 1: Functions, Control
 
+2. Homework Higher-Order Functions
+
 ## Appendix
+
+### Code Check
+
+- `python3 ok -q <func_name>`: Test specific questions
+
+- `python3 ok`: Test all questions
+
+- `python3 ok -v`: Display all tests. By default, only tests that **fail** will appear.
+
+- `python3 ok --local`: Test locally
 
 ### Useful Python Command Line Options
 
