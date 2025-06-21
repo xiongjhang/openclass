@@ -29,6 +29,8 @@ private:
 
 
 int main () {
+	// g++ -static-libstdc++ -std=c++20 Reactor.cpp -o main
+
 	// narrowing conversion, saving 100.8 into an integer, see type on line 32
 	int criticalTemperature(100.8);
 	Reactor reactor(criticalTemperature);
