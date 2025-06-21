@@ -1,0 +1,2 @@
+Hello, world!
+This will work, because the file is reopened!
