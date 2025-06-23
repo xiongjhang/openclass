@@ -1,8 +1,51 @@
-# CS106L - Spring 2025
+# CS106L: Standard C++ Programming - Spring 2025
 
-> https://web.stanford.edu/class/cs106l/
+> Official Website: https://web.stanford.edu/class/cs106l/
 
-## Testing your setup!
+**Short Description** \
+CS106L is a 1-unit class that explores the modern C++ language in depth. We'll cover some of the most exciting features of C++, including modern patterns (up through C++26) that give it beauty and power.
+
+## Course Map
+
+1. Welcome
+2. Types and Structs
+3. Initialization and References
+4. Guest Lecture
+5. Streams
+6. Containers
+7. Iterators and Pointers
+8. Classes
+9. Inheritance
+10. Const Correctness & Class Templates
+11. Function Templates
+12. Functions and Lambdas
+13. Operator Overloading
+14. Special Member Functions
+15. Move Semantics
+16. `std::optional` and Type Safety
+17. RAII, Smart Pointers, and Building C++ Projects
+
+## Assignments Information
+
+> Official Repo: https://github.com/cs106l/cs106l-assignments
+
+- [ ] Assignment 0: Setup!
+
+- [ ] Assignment 1: SimpleEnroll
+
+- [ ] Assignment 3: Make a Class
+
+- [ ] Assignment 4: Ispell
+
+- [ ] Assignment 5: Treebook
+
+- [ ] Assignment 6: Explore Courses
+
+- [ ] Assignment 7: Unique Pointer
+
+## Collections
+
+### Testing your setup!
 
 Now we will have you compile your first C++ file and run the autograder. To run any C++ code, first you'll need to compile it. Open up a VSCode terminal (again, hit <kbd>Ctrl+\`</kbd> or go to **Terminal > New Terminal** at the top of the window). Then make sure that you are in the `assignment0/` directory and run:
 
