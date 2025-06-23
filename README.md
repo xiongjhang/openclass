@@ -1,5 +1,26 @@
 # openclass
-Code repo for open classes in learning process
+
+## Motivation
+
+- Learn more, create more, and share more.
+
+## What I learned
+
+1. Archive the resources of the couse on time. Official website will update its content, 
+    and the resources may be lost. All resources should be classified carefully, such as 
+    
+    - slides
+    - assignments
+    - projects
+    - lecture code for practice
+    - etc.
+
+    And the resources should initially commit to the repo, modifications should be otherwise recorded.
+
+    Commit message template:
+    ```
+    [class_name]-[type]: [short description of the commit]
+    ```
 
 ## Update
 
