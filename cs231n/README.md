@@ -1,49 +1,24 @@
-# cs231n - Spring 2025
+# CS231n: Deep Learning for Computer Vision - Spring 2025
 
-## Assignment1
+> Official Website: https://cs231n.stanford.edu/
 
-> Image Classification, kNN, Softmax, Fully-Connected Neural Network, Fully-Connected Nets
+**Short Description**\
+Computer Vision has become ubiquitous in our society, with applications in search, image understanding, apps, mapping, medicine, drones, and self-driving cars. Core to many of these applications are visual recognition tasks such as image classification, localization and detection. Recent developments in neural network (aka “deep learning”) approaches have greatly advanced the performance of these state-of-the-art visual recognition systems. This course is a deep dive into the details of deep learning architectures with a focus on learning end-to-end models for these tasks, particularly image classification. During the 10-week course, students will learn to implement and train their own neural networks and gain a detailed understanding of cutting-edge research in computer vision. Additionally, the final assignment will give them the opportunity to train and apply multi-million parameter networks on real-world vision problems of their choice. Through multiple hands-on assignments and the final course project, students will acquire the toolset for setting up deep learning tasks and practical engineering tricks for training and fine-tuning deep neural networks.
 
-**Goals**
+## Course Map
 
-In this assignment you will practice putting together a simple image classification pipeline based on the k-Nearest Neighbor or the SVM/Softmax classifier. The goals of this assignment are as follows:
+- Deep Learning Basics
 
-- Understand the basic **Image Classification pipeline** and the data-driven approach (train/predict stages).
+- Perceiving and Understanding the Visual World
 
-- Understand the train/val/test **splits** and the use of validation data for **hyperparameter tuning**.
+- Generative and Interactive Visual Intelligence
 
-- Develop proficiency in writing efficient **vectorized** code with numpy.
+- Human-Centered Applications and Implications
 
-- Implement and apply a k-Nearest Neighbor (**kNN**) classifier.
+## Assignments Information
 
-- Implement and apply a **Softmax** classifier.
+- [ ] Assignment1: Image Classification, kNN, Softmax, Fully-Connected Neural Network, Fully-Connected Nets
 
-- Implement and apply a **Two layer neural network** classifier.
+- [ ] Assignment2: Batch Normalization, Dropout, Convolutional Nets, Network Visualization, Image Captioning with RNNs
 
-- Implement and apply a **fully connected network** classifier.
-
-- Understand the differences and tradeoffs between these classifiers.
-
-- Get a basic understanding of performance improvements from using **higher-level representations** as opposed to raw pixels, e.g. color histograms, Histogram of Oriented Gradient (HOG) features, etc.
-
----
-
-**Q1: k-Nearest Neighbor classifier**
-
-The notebook `knn.ipynb` will walk you through implementing the kNN classifier.
-
-**Q2: Implement a Softmax classifier**
-
-The notebook `softmax.ipynb` will walk you through implementing the Softmax classifier.
-
-**Q3: Two-Layer Neural Network**
-
-The notebook `two_layer_net.ipynb` will walk you through the implementation of a two-layer neural network classifier.
-
-**Q4: Higher Level Representations: Image Features**
-
-The notebook `features.ipynb` will examine the improvements gained by using higher-level representations as opposed to using raw pixel values.
-
-**Q5: Training a fully connected network**
-
-The notebook `FullyConnectedNets.ipynb` will walk you through implementing the fully connected network.
+- [ ] Assignment3: Image Captioning with Transformers, Self-Supervised Learning, Diffusion Models, CLIP and DINO Models
