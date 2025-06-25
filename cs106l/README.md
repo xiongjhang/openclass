@@ -29,9 +29,9 @@ CS106L is a 1-unit class that explores the modern C++ language in depth. We'll c
 
 > Official Repo: https://github.com/cs106l/cs106l-assignments
 
-- [ ] Assignment 0: Setup!
+- [x] Assignment 0: Setup!
 
-- [ ] Assignment 1: SimpleEnroll
+- [x] Assignment 1: SimpleEnroll
 
 - [ ] Assignment 3: Make a Class
 
